@@ -1,0 +1,147 @@
+
+<html>
+  <head>
+    
+<meta charset="utf-8" >
+
+<title>枯叶博客</title>
+<meta name="description" content="Desire has no rest.">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/animate.css/3.7.0/animate.min.css">
+
+<link rel="stylesheet" href="https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/font-awesome/6.0.0/css/all.min.css" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://blog-kuyebao.vercel.app/favicon.ico">
+<link rel="stylesheet" href="https://lib.baomitu.com/KaTeX/0.15.6/katex.min.css">
+<link rel="stylesheet" href="https://blog-kuyebao.vercel.app/styles/main.css">
+
+
+
+<script src="https://lib.baomitu.com/vue/2.6.11/vue.js"></script>
+<script src="https://lib.baomitu.com/highlight.js/10.7.3/highlight.min.js"></script>
+
+
+
+  </head>
+  <body>
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://www.85.al">
+        <img class="avatar" src="https://blog-kuyebao.vercel.app/images/avatar.png" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://www.85.al">
+        <h1 class="site-title">枯叶博客</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
+  </div>
+</div>
+
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
+      
+        
+          <a href="/" class="menu purple-link">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="menu purple-link">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="menu purple-link">
+            标签
+          </a>
+        
+      
+        
+          <a href="/about" class="menu purple-link">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
+
+
+      <div class="content-container">
+        
+        
+<section class="post-item">
+    <div class="content">
+      <a href="https://www.85.al/chao-ji-e-xin-de-jian-huang-shen-qi/">
+        <h2 class="post-title">超级恶心的“剑皇神器”</h2>
+      </a>
+      <div class="post-abstract">
+        <blockquote>
+<p>webBenchmark，这是一个测试网页服务器性能，并且可以用来耗尽服务器带宽或流量限额，工具的重点在于下载远程文件的过程中不会读写本地硬盘，无需担心本地存储介质问题。</p>
+</blockquote>
+
+      </div>
+      <div class="post-info">
+        <span><i class="icon icon-calendar-outline"></i> 2022-06-05</span>
+        
+      </div>
+    </div>
+    
+  </section>
+
+
+<div class="pagination-container">
+  
+  
+</div>
+
+
+      </div>
+
+      <div class="site-footer">
+  <div class="slogan">Desire has no rest.</div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  枯叶博客 | <a class="rss" href="https://www.85.al/atom.xml" target="_blank">RSS</a>
+</div>
+
+
+    </div>
+    <script type="application/javascript">
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+  </body>
+</html>
